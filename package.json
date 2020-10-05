@@ -1,0 +1,26 @@
+{
+  "name": "project-1-api-powered-app",
+  "version": "1.0.0",
+  "description": "API powered app for creating daily notes",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Test complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeB426/Project-1-API-Powered-App.git"
+  },
+  "author": "Joe Brucie",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/JoeB426/Project-1-API-Powered-App/issues"
+  },
+  "homepage": "https://github.com/JoeB426/Project-1-API-Powered-App#readme",
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
