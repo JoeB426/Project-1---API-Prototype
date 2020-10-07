@@ -1,6 +1,47 @@
 html, body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+  background-color: lightskyblue;
+  font-family: Arial;
+}
+
+h1 {
+  font-size: 26px;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.noteField {
+  width: 400px;
+}
+
+/* Styles for the main container */
+#mainContainer {
+  background-color: white;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 15px black;
+}
+
+/* Styles for the h1 and clear week button */
+#headContainer {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px dashed lightslategray;
+  display: flex;
+  justify-content: space-between;
+}
+
+#clearWk {
+  height: 40px;
+  width: 100px;
+}
+
+/* Styles for the daily notes section */
+#dailyContainer {
+  padding: 10px;
 }
